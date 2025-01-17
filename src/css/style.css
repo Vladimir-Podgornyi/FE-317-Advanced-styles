@@ -18,7 +18,7 @@
     .menu__header {
         display: flex;
         box-sizing: border-box;
-        padding: 18px 24px 46px 24px;
+        padding: 18px 17px 46px 24px;
         align-items: center;
        
         
@@ -58,7 +58,7 @@
         height: 2px;;
         transform: rotate(-45deg);
         background: #fff;
-        right: 9px;
+        right: 10px;
     }
 
     .menu__logo-i {
