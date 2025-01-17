@@ -10,12 +10,12 @@
     flex-direction: column;
     position: relative;
     width: 320px;
-    height: 900px;
-    min-height: auto;
+    height: 100%;
     box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
     background: #fff;
 }
     .menu__header {
+        justify-content: flex-start;
         display: flex;
         box-sizing: border-box;
         padding: 18px 17px 46px 24px;
@@ -38,7 +38,7 @@
     }
     .menu__round-clouse {
         position: relative;
-        margin-right: 24px;
+        margin-right: 16px;
      }
     .menu__round-clouse::before {
         content: "";
@@ -86,6 +86,9 @@
     }
     
     .menu__li {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
         position: relative;
     }
     
@@ -94,7 +97,6 @@
         display: block;
         color: #1b1c21;
         text-decoration: none;
-        margin-bottom: 10px;
         font-weight: 500;
     }
     
