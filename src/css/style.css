@@ -7,6 +7,12 @@ html,
 body {
     height: 100%;
 }
+
+ul, ul * {
+    -webkit-tap-highlight-color: transparent; /* Отключение выделения на мобильных устройствах */
+   
+}
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -15,6 +21,7 @@ body {
     height: 100%;
     box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
     background: #fff;
+    min-height: 700px;
 }
     .menu__header {
         justify-content: flex-start;
@@ -85,6 +92,10 @@ body {
         row-gap: 32px;
         width: 80%;
         margin-left: 20px;
+        outline: none
+    }
+    ul:focus, ul:active, li:focus, li:active {
+        outline: none;
     }
     
     .menu__li {
@@ -93,6 +104,7 @@ body {
         flex-direction: column;
         position: relative;
         height: 100%;
+        
     }
     
     .menu__list-item {
