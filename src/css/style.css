@@ -21,7 +21,7 @@ ul, ul * {
     height: 100%;
     box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2), -2px 0 4px 0 rgba(69, 79, 126, 0.02);
     background: #fff;
-    min-height: 700px;
+    min-height: 750px;
 }
     .menu__header {
         justify-content: flex-start;
@@ -105,8 +105,12 @@ ul, ul * {
         position: relative;
         height: 100%;
         
+        
     }
     
+    .menu__list {
+        margin-bottom: 50px;
+    }
     .menu__list-item {
         position: relative; /* Чтобы псевдоэлемент позиционировался относительно этого элемента */
         display: block;
